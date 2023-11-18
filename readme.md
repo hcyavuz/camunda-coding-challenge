@@ -12,6 +12,6 @@ When the pre-requisites are in place, follow steps below for setting up this pro
 
 - Clone the repository
 - Run gradle build to fetch project dependencies
-  - gradle build (or your IDEs built-in actions)
+  - ./gradlew build (or your IDEs built-in actions)
 - Go to /src/main/java/codingchallenge/Main class and run the "main" for executions
 - and voila!
