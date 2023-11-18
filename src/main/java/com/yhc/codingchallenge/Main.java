@@ -7,6 +7,10 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Coding Challenge for Technical Consultants
+ * Camunda Consulting
+ */
 public class Main {
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
     public static void main(String[] args) {
