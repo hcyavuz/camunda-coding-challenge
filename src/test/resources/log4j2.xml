@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="warn">
     <Properties>
-        <Property name="basePath">.\logs</Property>
+        <Property name="basePath">./logs</Property>
         <Property name="customPattern">%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level]%notEmpty{ - %X{assetName}} %c{1} - %msg%n</Property>
     </Properties>
 
