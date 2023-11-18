@@ -30,6 +30,17 @@ public class UserClient {
     }
 
     /**
+     * Fetchs the list of users and prints them out to the console
+     * @throws IOException throws an exception if the users could not be fetched
+     */
+    public void main() throws IOException {
+        List<User> listOfUsers = fetchUsers(1);
+        listOfUsers.forEach(u -> logger.info("First Name: {} Last Name: {}",
+                u.getFirstName(),
+                u.getLastName()));
+    }
+
+    /**
      * Fetches users from the API with the given page number
      * @param pageNumber Page number to fetch the users from
      * @return Returns the list of users if any found, else if the response body is null, returns null

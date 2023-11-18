@@ -17,9 +17,7 @@ public class Main {
         logger.info("Stating the coding challenge!");
         UserClient userClient = new UserClient();
         try {
-            List<User> listOfUsers = userClient.fetchUsers(1);
-            logger.info("Users have been fetched, there are '{}' users",
-                    listOfUsers.size());
+            userClient.main();
         } catch (IOException e) {
             logger.error("IO Exception occurred, response body might have been read properly",
                     e);
